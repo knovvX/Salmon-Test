@@ -1,0 +1,30 @@
+[theme]
+# Color scheme
+primaryColor = "#667eea"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f0f2f6"
+textColor = "#262730"
+font = "sans serif"
+
+[client]
+# Error display
+showErrorDetails = true
+# Toolbar display
+toolbarMode = "viewer"
+
+[server]
+# File upload limit (MB)
+maxUploadSize = 500
+# Port
+port = 8501
+# Run on save
+runOnSave = true
+# Don't collect telemetry
+gatherUsageStats = false
+
+[logger]
+level = "info"
+
+[browser]
+# Don't collect usage stats
+gatherUsageStats = false
